@@ -48,9 +48,7 @@ while(user_input != 3):
         for nombreProd, stockProd in productos.items():
             print(f" -> {nombreProd}: {stockProd}")
     
-    elif(user_input == 3):
-        print("Programa cerrado con exito")
-    
+    print("Programa cerrado con éxito")
     print("................")
 
 
